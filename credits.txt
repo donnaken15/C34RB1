@@ -1,0 +1,8 @@
+Automation /          donnaken15       2020
+main program + tools
+ArkTool               xorloser         2008
+DTA library           GameZelda        2010
+WIT tools             Wiimm            20XX
+dtb2dta               deimos           2009
+                      Nachyoz
+Bink Compressor       RADVideo         20XX

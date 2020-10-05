@@ -1,0 +1,42 @@
+(asym
+	(name "Asymmetrical")
+	(artist "Johnny Booth")
+	(master TRUE)
+	(context 87)
+	(song
+		(name songs/asym/asym)
+		(tracks ((drum 1)
+				(bass 1)
+				(guitar 1)
+				(vocals 1)))
+		(pans (0.00 0.00))
+		(vols (0.00 0.00))
+		(cores (-1 1))
+		(drum_solo (seqs (kick.cue
+					snare.cue
+					tom1.cue
+					tom2.cue
+					crash.cue)))
+		(drum_freestyle (seqs (kick.cue
+					snare.cue
+					hat.cue
+					ride.cue
+					crash.cue)))
+		(midi_file songs/asym/asym.mid))
+	(song_scroll_speed 1800)
+	(bank sfx/tambourine_bank.milo)
+	(venue_bank world/big_club/big_club_bank.milo)
+	(anim_tempo kTempoMedium)
+	(preview
+		2000
+		30000)
+	(rank
+		(drum 10)
+		(guitar 10)
+		(bass 10)
+		(vocals 10)
+		(band 10))
+	(genre metal)
+	(decade the00s)
+	(vocal_gender male)
+	(video videos/blank))
