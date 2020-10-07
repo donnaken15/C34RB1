@@ -18,6 +18,4 @@ del sed*
 copy ..\gen\blank.hdr ..\gen\main.hdr /y
 copy ..\gen\blank_0.ark ..\gen\main_0.ark /y
 echo Rebuilding the ARK file...
-:#echo Writing file list... (slow, thanks Windows) ^>:(
-:#FOR /F "tokens=*" %%A IN ('..\list') DO (echo Adding %%A... && ..\..\bin\ArkTool -a ..\gen "%%A" "%%A")
 FOR /F "tokens=*" %%A IN (..\tmp.lst) DO (echo Adding %%A... && ..\..\bin\ArkTool -a ..\gen "%%A" "%%A")
